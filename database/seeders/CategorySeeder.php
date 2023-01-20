@@ -18,29 +18,26 @@ class CategorySeeder extends Seeder
     {
         $categories = [
             [
+                'name' => 'Bienestar',
+                'slug' => Str::slug('Bienestar'),
+                'image' => 'categories/cuidado.jpg',
+            ],
+            [
                 'name' => 'Hogar',
                 'slug' => Str::slug('Hogar'),
                 'image' => 'categories/hogar.jpg',
             ],
             [
-                'name' => 'Tecnología',
-                'slug' => Str::slug('Tecnología'),
-                'image' => 'categories/tecnologia.jpg',
+                'name' => 'Cuidado personal',
+                'slug' => Str::slug('cuidado-personal'),
+                'image' => 'categories/cuidado.jpg',
             ],
-
             [
                 'name' => 'Digital',
                 'slug' => Str::slug('Digital'),
-                'image' => 'categories/digital.jfif',
-  
+                'image' => 'categories/tecnologia.jpg',
             ],
-
-            [
-                'name' => 'Cuidado personal',
-                'slug' => Str::slug('Cuidado personal'),
-                'image' => 'categories/cuidado.jpg',
-   
-            ],
+    
 
         ];
 

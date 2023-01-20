@@ -21,16 +21,17 @@ class UserSeeder extends Seeder
 
         User::create([
             'name' => 'Juan Huaman',
-            'email' => 'Huaman@admin.com',
+            'email' => 'admin@admin.com',
             'password' => bcrypt('12345678'),
             'dni' => '123456789',
             'code' => '00000001',
             'status' => 'activo',
             'points' => 0,
             'points_residual' => 0,
+            'points_global' => 0,
         ])->assignRole('admin');
 
-        User::create([
+       /* User::create([
             'name' => 'Jesmary',
             'email' => 'jesmary@admin.com',
             'password' => bcrypt('12345678'),
@@ -39,7 +40,7 @@ class UserSeeder extends Seeder
             'status' => 'activo',
             'points' => 0,
             'points_residual' => 0,
-        ])->assignRole('admin');
+        ])->assignRole('admin');*/
 
        // User::factory(10)->create();
     }

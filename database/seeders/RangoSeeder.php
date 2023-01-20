@@ -17,30 +17,20 @@ class RangoSeeder extends Seeder
         $rangos = [
             [
                 'name' => 'Socio',
-              /*  'ganancia' => '2000',
-                'personal' => '10'*/
             ],
             [
                 'name' => 'Diamante',
-              /*  'ganancia' => '2000',
-                'personal' => '10'*/
             ],
             [
                 'name' => 'Diamante corona',
-                /*  'ganancia' => '2000',
-                  'personal' => '10'*/
             ],
 
             [
                 'name' => 'Diamante embajador',
-                /*  'ganancia' => '2000',
-                  'personal' => '10'*/
   
             ],
             [
                 'name' => 'Diamante Imperial',
-                /*  'ganancia' => '2000',
-                  'personal' => '10'*/
   
             ],
 
